@@ -13,6 +13,7 @@ FleetFlowは、社用車の駐車位置、予約、利用開始、返却、利�
 | 開発・画面確認 | `FleetFlow Start.cmd` | 開発DB |
 
 本番環境と開発環境は別のDBを使用します。同時には起動せず、起動用ファイルが反対側のコンテナーを自動停止します。
+Composeプロジェクト名は、開発環境が`fleetflow-development`、本番環境が`fleetflow-production`で固定されています。フォルダー名に左右されず、Docker上で環境を識別できます。
 
 ## 必要なもの
 

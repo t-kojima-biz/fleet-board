@@ -1,3 +1,5 @@
+name: fleetflow-development
+
 services:
   app:
     build:
